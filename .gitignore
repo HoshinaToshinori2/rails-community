@@ -12,6 +12,7 @@
 /tmp/*
 !/log/.keep
 !/tmp/.keep
+.postgres/pg_stat_tmp/*
 
 # Ignore uploaded files in development
 /storage/*
