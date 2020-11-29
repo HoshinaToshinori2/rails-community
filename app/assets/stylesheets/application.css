@@ -1,4 +1,16 @@
-#header{
+/*
+ *= require_tree .
+ *= require_self
+ */
+
+ img{
+   max-width: 100%;
+ }
+body{
+  max-width: 1080px;
+  margin: 0 auto;
+}
+ #header{
     align-items: center;
     display: flex;
     justify-content: space-between;

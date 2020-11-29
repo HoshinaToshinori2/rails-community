@@ -1,0 +1,50 @@
+#welcome-index{
+    .content-wrapper{
+        display: flex;
+        justify-content: space-between;
+       .content-block{
+        border: 2px solid #000;
+        padding: 20px;
+        width: 60%;
+        .content{
+            padding: 15px;
+            border: 2px solid #000;
+            margin-bottom: 10px;
+            .user-about{
+                display: flex;
+                .image{
+                    width: 10%;
+                }
+                .profile{
+                    margin-left: 10px;
+                    font-size: 13px;
+                    .name-history{
+                        width: 100%;
+                        display: flex;
+                        .name{
+                            font-weight: bold;
+                        }
+                        .learning-history{
+                            margin-left: 20px;
+                        }
+                    }
+                    .porpose{
+                        width: 1000%;
+                    }
+                }
+            }
+        }
+       }
+       .sidebar{
+        border: 2px solid #000;
+        width: 20%;
+        padding: 20px;
+        .box{
+            background-color: #000;
+            width: 100px;
+            height: 100px;
+            margin: 10px auto;
+        }
+       }
+    }
+}
