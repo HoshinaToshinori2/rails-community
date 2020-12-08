@@ -1,6 +1,6 @@
 <div class="content-wrapper">
     <div class="content-block">
-        <% (1..10).each do |x| %>
+        <% @posts.each do |post| %>
         <div class="content">
             <div class="user-about">
                 <div class="image">
@@ -15,8 +15,7 @@
                 </div>
             </div>
             <div class="text">
-                <p>サンプルサンプルサンプルサンプルサンプル</p>
-                <p>サンプルサンプルサンプルサンプルサンプル</p>
+                <p><%= post.content %></p>
             </div>
             <div class="action-menu">
                 <div class="like"></div>
